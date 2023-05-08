@@ -1,0 +1,11 @@
+import "color.awoo";
+
+uint8* vga = 0xb8000;
+
+func print(character char) {
+	*vga = character;
+	vga += 1;
+	*vga = color;
+	vga += 1;
+	return;
+}

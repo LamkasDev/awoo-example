@@ -1,0 +1,11 @@
+import "driver/vga.awoo";
+import "messages.awoo";
+
+uint8 boykisserLength = 12;
+
+func main() {
+	for uint8 i = 0; i < boykisserLength; i += 1 {
+		print(boykisser[i]);
+	}
+	return;
+}
